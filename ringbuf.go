@@ -1,4 +1,4 @@
-package main
+package ringbuf
 import (
 	"fmt"
 	"io"

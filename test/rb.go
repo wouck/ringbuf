@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 	"strings"
-	. "ringbuf"
+	. "github.com/wouck/ringbuf"
 )
 func main() {
 	rb := MakeRingBuf(4096)
